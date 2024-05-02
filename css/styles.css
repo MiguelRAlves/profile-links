@@ -18,7 +18,7 @@ body{
     padding-top: 200px;
     color: whitesmoke;
     font-family: "Inter";
-    font-size: calc(0.8rem + 1vw);
+    font-size: clamp(20px, 12.8px + 1vw, 48px);
     text-align: center;
 }
 
