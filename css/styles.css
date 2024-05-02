@@ -1,3 +1,8 @@
+*{
+    text-decoration: none;
+    font-style: normal;
+}
+
 body{
     background-color: hsl(0, 0%, 8%);
 }
@@ -5,8 +10,91 @@ body{
 .container-links{
     margin: 200px 400px;
     background-color: hsl(0, 0%, 12%);
+    border-radius: 10px;
+    padding-bottom: 2px;
 }
 
-.container-links .apresentacao{
+.container-links .apresentacao .nome{
+    padding-top: 200px;
+    color: whitesmoke;
+    font-family: "Inter";
+    font-size: 20px;
+    text-align: center;
+}
 
+.container-links .apresentacao .localizacao{
+    font-family: "Inter";
+    text-align: center;
+    font-size: 15px;
+    color: greenyellow;
+}
+
+.container-links .apresentacao .descricao{
+    padding-bottom: 10px;
+    color: whitesmoke;
+    font-family: "Inter";
+    text-align: center;
+    font-weight: 400;
+}
+
+.container-links .links a .github{
+    display: block;
+    text-align: center;
+    margin: 20px 50px 10px 50px;
+    background-color: hsl(0, 0%, 20%);
+    padding: 15px;
+    border: 1px solid hsl(0, 0%, 20%);
+    border-radius: 10px;
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: "Inter";
+    font-weight: 500;
+}
+
+.container-links .links a .linkedin{
+    display: block;
+    text-align: center;
+    margin: 10px 50px 10px 50px;
+    background-color: hsl(0, 0%, 20%);
+    padding: 15px;
+    border: 1px solid hsl(0, 0%, 20%);
+    border-radius: 10px;
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: "Inter";
+    font-weight: 500;
+}
+
+.container-links .links a .whatsapp{
+    display: block;
+    text-align: center;
+    margin: 10px 50px 10px 50px;
+    background-color: hsl(0, 0%, 20%);
+    padding: 15px;
+    border: 1px solid hsl(0, 0%, 20%);
+    border-radius: 10px;
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: "Inter";
+    font-weight: 500;
+}
+
+.container-links .links a .instagram{
+    display: block;
+    text-align: center;
+    margin: 10px 50px 10px 50px;
+    background-color: hsl(0, 0%, 20%);
+    padding: 15px;
+    border: 1px solid hsl(0, 0%, 20%);
+    border-radius: 10px;
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: "Inter";
+    font-weight: 500;
+}
+
+.container-links .attribution{
+    background-color: hsl(0, 0%, 20%);
+    margin: 10px 200px 1px 200px;
+    border-radius: 10px;
 }
