@@ -8,7 +8,7 @@ body{
 }
 
 .container-links{
-    margin: 200px 400px;
+    margin: 100px 400px 100px 400px;
     background-color: hsl(0, 0%, 12%);
     border-radius: 10px;
     padding-bottom: 2px;
@@ -91,10 +91,4 @@ body{
     color: whitesmoke;
     font-family: "Inter";
     font-weight: 500;
-}
-
-.container-links .attribution{
-    background-color: hsl(0, 0%, 20%);
-    margin: 10px 200px 1px 200px;
-    border-radius: 10px;
 }
