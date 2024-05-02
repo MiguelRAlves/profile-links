@@ -18,14 +18,14 @@ body{
     padding-top: 200px;
     color: whitesmoke;
     font-family: "Inter";
-    font-size: 20px;
+    font-size: calc(0.8rem + 1vw);
     text-align: center;
 }
 
 .container-links .apresentacao .localizacao{
     font-family: "Inter";
     text-align: center;
-    font-size: 15px;
+    font-size: clamp(16px, 6.4px + 1vw, 48px);
     color: greenyellow;
 }
 
