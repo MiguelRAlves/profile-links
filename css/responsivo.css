@@ -1,23 +1,6 @@
 @media(max-width:1160px){
     .container-links{
-        margin: 100px 200px;
+        margin: clamp(25px, 40px + 1vw, 100px) clamp(25px, 10px + 10vw, 1500px);
     }
 }
-
-@media(max-width:765px){
-    .container-links{
-        margin: 50px 100px;
-    }
-}
-
-@media(max-width:515px){
-    .container-links{
-        margin: 25px 50px;
-    }
-}
-
-@media(max-width:320px){
-    .container-links{
-        margin: 50px 25px 20px 25px;
-    }
-}
+   
