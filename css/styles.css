@@ -8,7 +8,7 @@ body{
 }
 
 .container-links{
-    margin: 100px 400px 100px 400px;
+    margin: 100px 450px 100px 450px;
     background-color: hsl(0, 0%, 12%);
     border-radius: 10px;
     padding-bottom: 2px;
@@ -37,10 +37,36 @@ body{
     font-weight: 400;
 }
 
-.container-links .links a .github{
+.container-links .links .github{
+    margin: 10px 50px 10px 50px;
+}
+
+.container-links .links p .botaogit{
     display: block;
     text-align: center;
-    margin: 20px 50px 10px 50px;
+    padding: 15px;
+    background-color: hsl(0, 0%, 20%);
+    border: 1px solid hsl(0, 0%, 20%);
+    border-radius: 10px;
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: "Inter";
+    font-weight: 500;
+}
+
+.container-links .links p .botaogit:hover{
+    background-color: greenyellow;
+    color: black;
+    transition: 0.3s;
+}
+
+.container-links .links .linkedin{
+    margin: 10px 50px 10px 50px;
+}
+
+.container-links .links p .botaolinkedin{
+    display: block;
+    text-align: center;
     background-color: hsl(0, 0%, 20%);
     padding: 15px;
     border: 1px solid hsl(0, 0%, 20%);
@@ -51,10 +77,19 @@ body{
     font-weight: 500;
 }
 
-.container-links .links a .linkedin{
+.container-links .links p .botaolinkedin:hover{
+    background-color: greenyellow;
+    color: black;
+    transition: 0.3s;
+}
+
+.container-links .links .whatsapp{
+    margin: 10px 50px 10px 50px;
+}
+
+.container-links .links p .botaozap{
     display: block;
     text-align: center;
-    margin: 10px 50px 10px 50px;
     background-color: hsl(0, 0%, 20%);
     padding: 15px;
     border: 1px solid hsl(0, 0%, 20%);
@@ -65,10 +100,19 @@ body{
     font-weight: 500;
 }
 
-.container-links .links a .whatsapp{
+.container-links .links p .botaozap:hover{
+    background-color: greenyellow;
+    color: black;
+    transition: 0.3s;
+}
+
+.container-links .links .instagram{
+    margin: 10px 50px 10px 50px;
+}
+
+.container-links .links p .botaoinstagram{
     display: block;
     text-align: center;
-    margin: 10px 50px 10px 50px;
     background-color: hsl(0, 0%, 20%);
     padding: 15px;
     border: 1px solid hsl(0, 0%, 20%);
@@ -79,16 +123,8 @@ body{
     font-weight: 500;
 }
 
-.container-links .links a .instagram{
-    display: block;
-    text-align: center;
-    margin: 10px 50px 10px 50px;
-    background-color: hsl(0, 0%, 20%);
-    padding: 15px;
-    border: 1px solid hsl(0, 0%, 20%);
-    border-radius: 10px;
-    text-decoration: none;
-    color: whitesmoke;
-    font-family: "Inter";
-    font-weight: 500;
+.container-links .links p .botaoinstagram:hover{
+    background-color: greenyellow;
+    color: black;
+    transition: 0.3s;
 }
