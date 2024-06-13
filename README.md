@@ -2,7 +2,7 @@
 
 Um projeto de vitrine para minhas redes sociais. ✨📱
 
-<img src="./design/profile-links-img.png" alt="demonstração da tela inicial do projeto">
+<img src="./design/site-preview.gif" alt="demonstração da tela inicial do projeto">
 
 ## Tecnologias Utilizadas
 
